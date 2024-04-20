@@ -1,3 +1,7 @@
+This is just a proof of concept react website. 
+The teams page use to work with a backend and database but it is no longer set up.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

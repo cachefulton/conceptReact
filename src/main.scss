@@ -1,0 +1,124 @@
+:root {
+    --brown: #5F3E15;
+    --lightBrown: #997C5C;
+    --tan: #D0C5A7;
+    --white: #F7F3E7;
+    --green: #333E30;
+    --black: #383639;
+  }
+
+.aside {
+    color: var(--white);
+    /* opacity: .8; */
+}
+
+.main-section {
+    background-color: var(--white)!important;
+    opacity: .8;
+}
+
+.content-container {
+    padding-top: 70px;
+}
+
+/* h3 {
+    color: var(--black);
+} */
+
+i {
+    display: inline-block;
+    width: 30px;
+}
+
+#logo {
+    width: 25px;
+}
+
+#color-nav {
+    background-color: #374957;
+}
+
+#title {
+    color: var(--white)!important;
+}
+
+#trophy {
+    color: var(--black);
+}
+
+/* font awesome footer icons */
+a {
+    color: var(--black)!important;
+}
+
+.table-head:hover {
+    cursor: pointer;
+}
+
+.btn-outline-secondary {
+    border-width: .11rem!important;
+}
+
+#text-muted {
+    color: var(--tan);
+}
+
+.nav-pills .nav-link.active {
+    background-color: rgb(82, 80, 80)!important;
+    color: var(--white)!important;
+}
+
+/* .nav-pills .nav-link.active:hover {
+    background-color: gray!important;
+} */
+
+.nav-link {
+    color: var(--white)!important;
+}
+
+.nav-pills .nav-link:hover {
+    background-color: gray;
+}
+
+.list-group-item {
+    background-color: var(--white)!important;
+}
+
+
+/* this is for the background img */
+body {
+    color: var(--black);
+    background-image: url(../public/imgs/background_chessboard.jpg);
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Background image is fixed in the viewport so that it doesn't move when
+    the content's height is greater than the image's height */
+    background-attachment: fixed;
+
+    /* This is what makes the background image rescale based
+    on the container's size */
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .tab-content {
+        /* border-right: solid;
+        border-color: var(--black);
+        border-width: 2px; */
+        box-shadow: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .tab-content {
+        border-right: none;
+        padding-bottom: 50px;
+    }
+
+    body {
+        padding-top: 60px;
+    }
+}
